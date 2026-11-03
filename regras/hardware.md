@@ -29,3 +29,10 @@ _Atualizado em 2026-11-02._
 
 - 2x Team T-Create 32 GB DDR4-3200, na Pichau, por cerca de R$ 980.
 - Exige trocar os dois módulos atuais (não há slot livre).
+
+## GPU na nuvem — RunPod
+- Aluguel por segundo, sem contrato, créditos pré-pagos. Preços: https://www.runpod.io/pricing
+- Melhor custo-benefício: RTX 3090 24GB (US$0,22/h Community) para modelos até ~30B.
+- 48GB (A40/A6000, ~US$0,33/h) para 70B em Q4.
+- Use Pod com template Ollama/vLLM; conecte o Cline pela URL da API do Pod.
+- SEMPRE desligar o Pod após o uso; apagar volume sem uso (parado custa US$0,20/GB/mês).
