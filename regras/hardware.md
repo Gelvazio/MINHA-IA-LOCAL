@@ -36,3 +36,11 @@ _Atualizado em 2026-11-02._
 - 48GB (A40/A6000, ~US$0,33/h) para 70B em Q4.
 - Use Pod com template Ollama/vLLM; conecte o Cline pela URL da API do Pod.
 - SEMPRE desligar o Pod após o uso; apagar volume sem uso (parado custa US$0,20/GB/mês).
+
+## GPU na nuvem — Vast.ai
+- Marketplace de GPUs (68+ tipos, de RTX 3060 a B200); preço definido por oferta e demanda. Preços ao vivo: https://vast.ai/pricing
+- Cobrança por segundo, sem mínimo de horas e sem contrato.
+- Tipos: On-Demand (sem interrupção), Interruptible (50%+ mais barato, pode ser interrompido — salvar progresso) e Reserved (1, 3 ou 6 meses, com desconto).
+- Geralmente mais barato que o RunPod, porém máquinas de terceiros variam em qualidade: filtrar por confiabilidade e velocidade de internet.
+- Para IA local/código: use On-Demand com template Ollama/vLLM; conecte o Cline pela URL da API.
+- SEMPRE destruir/parar a instância após o uso para não continuar cobrando armazenamento.
